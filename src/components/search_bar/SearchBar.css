@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    --bs-primary: #001D34;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_r{
+    display: flex;
+}
+
+.btns {
+    display: flex;
+    justify-content: right;
+}
+
+.bton {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    height: 2.5rem;
+}
