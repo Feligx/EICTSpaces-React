@@ -3,6 +3,7 @@ import Dash from './views/dashboard/Dash'
 import Bookings from './views/bookings/Bookings'
 import Login from "./views/login/Login.jsx"
 import Forms from "./views/form/Forms.jsx"
+import Calendar from "./views/calendar/Calendar.jsx"
 import Profile from "./views/profile/Profile.jsx"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
@@ -62,6 +63,13 @@ const routes = [
         name: 'Bookings',
         layout: 'default',
         icon: 'ClockFill'
+    },
+    {
+        path: '/calendar',
+        element: <Calendar />,
+        name: 'Calendar',
+        layout: 'default',
+        icon: 'Calendar3Fill'
     }
 ]
 function App() {
